@@ -1,0 +1,17 @@
+#direction: right
+#import: sample-style.nomnoml
+
+[&lt;frame&gt;frame|[some class]]
+[&lt;package&gt;package|[some class]]
+[&lt;box&gt;box]
+[class|items: Object\[\]] - [&lt;hidden&gt; hidden]
+[hidden] - [&lt;label&gt; label]
+[hidden] - [instance]
+[&lt;abstract&gt; abstract] - [&lt;instance&gt; instance]
+[&lt;note&gt; note] -- [&lt;reference&gt; reference]
+[&lt;package&gt; package] &lt;- [&lt;frame&gt; frame]
+[&lt;database&gt; database] &lt;:- [&lt;start&gt; start]
+[&lt;end&gt; end] -/- [&lt;state&gt; state]
+[&lt;choice&gt; choice] &lt;-o [&lt;input&gt; input]
+[&lt;sender&gt; sender] &lt;-+ [&lt;receiver&gt; receiver]
+[&lt;actor&gt; actor] &lt;-&gt; [&lt;usecase&gt; usecase]
