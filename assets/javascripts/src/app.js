@@ -1,6 +1,5 @@
-var nomnomlapp = nomnomlapp || {}
-
 function nomnomlinit() {
+	var nomnomlapp = nomnomlapp || {}
 
 	var storage = null
 	var graphTitle = 'diagram'
